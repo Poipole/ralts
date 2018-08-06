@@ -15,7 +15,7 @@ for (const file of commandFiles) {
 const cooldowns = new Discord.Collection();
 
 client.on('ready', () => {
-	console.log('Ready!');
+	console.log('Ready to go!');
 });
 
 client.on('guildMemberAdd', member => {
